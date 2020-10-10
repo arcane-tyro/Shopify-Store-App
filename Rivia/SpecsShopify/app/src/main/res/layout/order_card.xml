@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/order_card"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+
+    <TextView
+        android:id="@+id/orderIdTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C7E2E6"
+        android:text="Order ID:"
+        android:textSize="22sp"/>
+
+
+    <TextView
+        android:id="@+id/paymentStatusTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C7E2E6"
+        android:text="Payment Status:"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/fulfillmentStatusTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C7E2E6"
+        android:text="Fulfillment Status:"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/refundStatusTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C7E2E6"
+        android:text="Refund Status:"
+        android:textSize="22sp" />
+
+</LinearLayout>

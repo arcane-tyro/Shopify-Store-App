@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/product_card"
+    android:orientation="vertical"
+    android:padding="4dp">
+
+    <TextView
+        android:id="@+id/productIdTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C7E2E6"
+        android:text="Product ID:"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/productNameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C7E2E6"
+        android:text="Product Name:"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/productQuantityTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C7E2E6"
+        android:text="Quantity:"
+        android:textSize="22sp" />
+
+</LinearLayout>
